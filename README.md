@@ -186,18 +186,18 @@ public class GameManager : MonoBehaviour
 
 Aşağıda Unity projesi içinde Assets klasörünün düzeni gösterilmiştir:
 
+```bash
 Assets
-│
 ├── Materials
 │   ├── GrayMat.mat
 │   ├── PurpleMat.mat
 │   ├── GreenMat.mat
 │   └── RedMat.mat
-│
 └── Scripts
     ├── PlayerMovement.cs
     ├── ColorMatch.cs
     └── GameManager.cs
+```
 
 ---
 
