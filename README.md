@@ -201,6 +201,10 @@ Assets
 
 ---
 
-## 📷 Ekran Görselleri
+## 🎮 Oyun Görselleri
 
-![Resim1](ReadMeImages/Resim1.png)![Resim2](ReadMeImages/Resim2.png)
+<p align="center">
+  <img src="ReadMeImages/Resim1.png" alt="Oyun Görseli 1" width="45%"/>
+  <img src="ReadMeImages/Resim2.png" alt="Oyun Görseli 2" width="45%"/>
+</p>
+
