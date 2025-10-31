@@ -204,8 +204,6 @@ Assets
 ## 🎮 Oyun Görselleri
 
 <p align="center">
-  <img src="ReadMeImages/Resim1.png" alt="Resim1" width="45%" height="300px"/>
-  <img src="ReadMeImages/Resim2.png" alt="Resim2" width="45%" height="300px"/>
+  <img src="ReadMeImages/Resim1.png" alt="Resim1" style="height:300px; width:45%; object-fit:cover;"/>
+  <img src="ReadMeImages/Resim2.png" alt="Resim2" style="height:300px; width:45%; object-fit:cover;"/>
 </p>
-
-
