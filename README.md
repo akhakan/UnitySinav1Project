@@ -35,7 +35,7 @@ Amaç, **renkli küplerin doğru renk alanlarına taşındığında puan toplanm
 |-----------|-------|----------------|
 | RedMat | Kırmızı | RedCube |
 | GreenMat | Yeşil | GreenCube |
-| GrayMat | Gri | RedField, GreenField *(başlangıçta)* |
+| GrayMat | Gri | RedField, GreenField *(başlangıçta-yanlış eşleştiğinde-eşleşmediğinde)* |
 | PurpleMat | Mor | RedField, GreenField *(doğru eşleştiğinde)* |
 
 ---
@@ -73,6 +73,7 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(hareket * hiz * Time.deltaTime);
     }
 }
+```
 
 ---
 
@@ -147,6 +148,7 @@ public class ColorMatch : MonoBehaviour
         }
     }
 }
+```
 
 ---
 
@@ -176,4 +178,29 @@ public class GameManager : MonoBehaviour
         }
     }
 }
+```
 
+---
+
+## 📁 Proje Klasör Yapısı
+
+Aşağıda Unity projesi içinde Assets klasörünün düzeni gösterilmiştir:
+
+Assets
+│
+├── Materials
+│   ├── GrayMat.mat
+│   ├── PurpleMat.mat
+│   ├── GreenMat.mat
+│   └── RedMat.mat
+│
+└── Scripts
+    ├── PlayerMovement.cs
+    ├── ColorMatch.cs
+    └── GameManager.cs
+
+---
+
+## 📷 Ekran Görselleri
+
+![Resim1](ReadMeImages/Resim1.png)![Resim2](ReadMeImages/Resim2.png)
